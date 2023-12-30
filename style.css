@@ -1,0 +1,109 @@
+body {
+			font-family: "Font1", sans-serif;
+		}
+
+		<link > h1</link > {
+			font-family: "Font1", sans-serif;
+			font-size: 1.2em;
+		}
+
+		<link > h2</link > {
+			font-family: "Font2", sans-serif;
+			font-size: 1.1em;
+		}
+
+		<link > h3</link > {
+			font-family: "Font1", sans-serif;
+			font-size: 1em;
+		}
+
+		<link > p</link > {
+			font-family: "Font3", sans-serif;
+			font-size: 0.9em;
+		}
+
+		.block {
+			background-color: #f2f2f2;
+			padding: 10px;
+			margin-bottom: 20px;
+		}
+
+			.block <link > h2</link > {
+				background-color: #333;
+				color: #fff;
+				padding: 5px;
+				width: 200px;
+				text-align: center;
+			}
+
+		.block1 <link > h2</link > {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+		}
+
+		.block2 <link > h2</link > {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+		}
+
+		.block3 <link > h2</link > {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+		}
+
+		.block4 <link > h2</link > {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+		}
+
+		.block <link > p</link > {
+			color: #555;
+		}
+
+		table {
+			width: 100%;
+			border-collapse: collapse;
+		}
+
+		th, td {
+			border: 1px solid #ccc;
+			padding: 5px;
+		}
+
+		th {
+			background-color: #333;
+			color: #fff;
+		}
+
+		img {
+			width: 320px;
+			height: 240px;
+		}
+
+		@media (max-width: 768px) {
+			.block {
+				width: 100%;
+			}
+		}
+
+		@media (min-width: 769px) and (max-width: 992px) {
+			.block {
+				width: 50%;
+			}
+		}
+
+		@media (min-width: 993px) and (max-width: 1200px) {
+			.block {
+				width: 33.33%;
+			}
+		}
+
+		@media (min-width: 1201px) {
+			.block {
+				width: 25%;
+			}
+		}
