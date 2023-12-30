@@ -1,49 +1,126 @@
-.block1 {
-  background: #6195ED; 
+#block1 {
+  background-color: #eee; 
 }
 
-.block2 {
-  background: #F0E68C;
-}
-
-.block3 { 
-  background: #90EE90;
-}
-
-.block4 {
-  background: #FFB6C1;
-}
-
-.block-title {
-  width: 200px; 
-  background: #FFF;
-  color: #000;
-  padding: 10px;
+#block1 h4 {
+  background-color: #333;
+  color: #fff;
+  width: 150px;  
   position: absolute;
-  bottom: 0;
-  left: 0; 
+  bottom: 10px;
+  right: 10px; 
 }
 
-.block1 p {
-  color: #FFF; 
+#block2 {
+  background-color: #ddd;  
 }
 
-.block2 p {
-  color: #333;
+#block2 h4 {
+  background-color: #666;
+  color: #fff;
+  width: 150px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;   
 }
 
-.block3 p {  
-  color: #000;
+#block3 {
+  background-color: #ccc;  
 }
 
-.block4 p {
-  color: #222;  
+#block3 h4 {
+  background-color: #999;
+  color: #fff;
+  width: 150px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;   
 }
 
-.block-title {
-  font-size: 1.2rem;  
+#block4 {
+  background-color: #bbb;   
 }
 
-p {
-  font-size: 1rem;
+#block4 h4 {
+  background-color: #c00;
+  color: #fff;
+  width: 150px; 
+  position: absolute;
+  bottom: 10px;
+  right: 10px;  
+}
+
+#block1, 
+#block2,
+#block3,
+#block4 {
+  color: #333; 
+}
+
+#block1 h4,
+#block2 h4, 
+#block3 h4,
+#block4 h4 {
+  font-size: 120%;  
+}
+
+
+
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;   
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#block1,  
+#block2,
+#block3, 
+#block4 {
+  font-family: 'Lato', sans-serif;  
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  #block1, #block2, #block3, #block4 {
+    width: 100%; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #block1, #block2 {
+    width: 50%;
+    float: left; 
+  }
+  
+  #block3, #block4 {
+    width: 50%;
+    float: left; 
+  } 
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  #block1, #block2, #block3 {
+    width: 33.33%;
+    float: left; 
+  }
+  
+  #block4 {
+    width: 100%;
+    clear: both; 
+  }  
+}
+
+@media (min-width: 1200px) {
+  #block1, #block2, #block3, #block4 {
+    width: 25%;
+    float: left;   
+  }
 }
